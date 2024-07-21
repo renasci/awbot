@@ -1,0 +1,107 @@
+
+body {
+    color: #003638;
+    background-color: hsla(55, 29%, 92%, 1);
+    
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    
+}
+.button {
+    background-color: #9be0e2;
+    border: none;
+    border-radius: 3px;
+    /* padding: 2px; */
+    margin: 1px;
+    color: #003638;
+    font-family: 'Abel', sans-serif;
+
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background-color: #6dc9cc;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+}
+
+tr:hover {
+    /* background-color: #9be2a4; */
+    outline: 2px solid  #186366;
+
+    
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: hsla(55, 29%, 92%, 1);
+}
+
+
+.button_small {
+    background-color: #9be0e2;
+    border: none;
+    border-radius: 3px;
+    /* padding: 2px; */
+    margin: 1px;
+    color: #003638;
+    font-family: 'Abel', sans-serif;
+    font-size: 10px;
+
+}
+
+.button_small:hover {
+    transform: scale(1.05);
+    background-color: #6dc9cc;
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    z-index: 9999;
+    /* width: 30px; */
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #9be0e2;
+    color: #444;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+  }
+  
+  .back_to_top:hover {
+    background-color: #6dc9cc;
+    transform: scale(1.2);
+
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
+
+
+  .message_popup {
+      position: fixed;
+      background-color: #8ee4aa; 
+      
+      right: 0;
+      top: -1000px;
+      color: #2a5a3a;
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      border-radius: 5px;
+      padding: 3px;
+      margin-right: 0;
+      z-index: 20000;
+  }
+
+  .message_popup.show {
+    top: 0;
+  }
